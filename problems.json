@@ -1,0 +1,34 @@
+[
+    {
+        "key": "Implement insert, merge, and quick sort to sort an array of integers",
+        "weight": "2"
+    },
+    {
+        "key": "Implement three functions: accept integer: print binary and hex, accept binary string: print integer and hex, accept hex string: print binary and decimal",
+        "weight": "1"
+    },
+    {
+        "key": "Print fibonacci sequcene up to N",
+        "weight": "1"
+    },
+    {
+        "key": "Create binary search tree with insert, search, and delete",
+        "weight": "1"
+    },
+    {
+        "key": "Implement a stack and a Queue",
+        "weight": "1"
+    },
+    {
+        "key": "Create a graph and perform breadth first and depth first traversal",
+        "weight": "1"
+    },
+    {
+        "key": "Create a test file with random paragraphs, open the file, count and print the words",
+        "weight": "1"
+    },
+    {
+        "key": "Implement binary search tree with pre order, in order, post order, and level order traversal",
+        "weight": "1"
+    }
+]
