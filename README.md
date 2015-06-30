@@ -3,7 +3,8 @@ Runs this problem every day to practice a kata problem to solve...
 
 #usage: python katanator.py
 
-#Example output: Langugage: python, Problem: Implement insert, merge, and quick sort to sort an array of integers.
+#Example output
+Langugage: python, Problem: Implement insert, merge, and quick sort to sort an array of integers.
 
 #Details
 When you run Katanator one problem is selected from the file problems.json.  
