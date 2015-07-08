@@ -7,6 +7,7 @@
 """
 
 import JsonFileReader
+import os
 from random import choice
 
 class Katanator:
@@ -18,9 +19,9 @@ class Katanator:
         make the selection
         :return: string to output to user containing language and problem
         """
-
-        problems = JsonFileReader.JsonFileReader.parse_file('./problems.json')
-        languages = JsonFileReader.JsonFileReader.parse_file('./languages.json')
+        curr_dir = os.path.dirname(__file__)
+        problems = JsonFileReader.JsonFileReader.parse_file(os.path.join(curr_dir, 'problems.json'))
+        languages = JsonFileReader.JsonFileReader.parse_file(os.path.join(curr_dir, 'languages.json'))
 
         problem = choice(problems)
         language = choice(languages)

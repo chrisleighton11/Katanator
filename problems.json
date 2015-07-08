@@ -1,6 +1,6 @@
 [
     {
-        "key": "Implement insert, merge, and quick sort to sort an array of integers",
+        "key": "Implement quick sort to sort an array of integers",
         "weight": "2"
     },
     {
