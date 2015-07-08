@@ -17,8 +17,6 @@ class JsonFileReader:
             data = json.load(fp)
             for key in data:
                 weight = int(key['weight'])
-                print weight
                 for i in range(weight):
                     ret.append(str(key['key']).strip())
-        print ret
         return ret
