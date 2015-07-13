@@ -30,5 +30,12 @@
     {
         "key": "Implement binary search tree with pre order, in order, post order, and level order traversal",
         "weight": "1"
+    },
+    {
+        "key": "Implement simple factory to construct different types of shapes",
+        "weight": "1"
+    },
+    {   "key": "Create two threads, one thread opens a file and passes each word to a queue, another thread reads the queue and prints the reverse",
+        "weight": "1"
     }
 ]
